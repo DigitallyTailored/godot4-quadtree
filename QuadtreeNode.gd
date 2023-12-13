@@ -86,9 +86,9 @@ func visualize_quadtree(chunk: QuadtreeChunk):
 
 		#add this chunk to chunk list
 		chunks_list[chunk.identifier] = mesh_instance
-		if get_tree().get_edited_scene_root():
-			mesh_instance.owner = get_tree().get_edited_scene_root()
-			mesh_instance.owner.set_editable_instance(mesh_instance, true)
+		#if get_tree().get_edited_scene_root():
+			#mesh_instance.owner = get_tree().get_edited_scene_root()
+			#mesh_instance.owner.set_editable_instance(mesh_instance, true)
 	# Recursively visualize children chunks
 	for child in chunk.children:
 		visualize_quadtree(child)

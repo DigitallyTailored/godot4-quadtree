@@ -6,9 +6,8 @@
 
 [node name="Node3D" type="Node3D" parent="."]
 script = ExtResource("1_kkkv3")
-focus_position = Vector3(276.995, 0, 112.805)
-quadtree_size = 2048.0
-max_chunk_depth = 12
+focus_position = Vector3(64, 0, 64)
+quadtree_size = 10240.0
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.707107, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707107, -0.5, 0.5, 150, 100, 150)
